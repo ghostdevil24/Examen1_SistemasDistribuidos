@@ -7,8 +7,8 @@ float calcular_tiempo() {
     struct timespec inicio, fin;
     double tiempo_total;
     float a[1],x;
-    a[0]= (float)rand() / (float)RAND_MAX;
     srand(time(NULL));
+    a[0]= (float)rand() / (float)RAND_MAX;
     clock_gettime(CLOCK_MONOTONIC, &inicio);
     x = a[0];
     clock_gettime(CLOCK_MONOTONIC, &fin);
