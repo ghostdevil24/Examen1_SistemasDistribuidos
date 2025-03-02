@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #define N 1000
 double calcular_tiempo2() {
-    float a[N][N], x[N][N];
+    float a[N][N], x;
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
             a[i][j] = (float)rand() / (float)RAND_MAX;
@@ -13,7 +13,7 @@ double calcular_tiempo2() {
     inicio = clock();
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
-            x[i][j] = a[i][j];
+            x = a[i][j];
         }
     }
     fin = clock();
