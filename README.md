@@ -45,4 +45,5 @@ pip install pandas matplotlib
 ## Resultados
 ![imagen](https://github.com/user-attachments/assets/1cbcd809-90d1-4be1-a130-977581da32eb)
 ![imagen](https://github.com/user-attachments/assets/27e071a5-9dc7-4c8f-a971-7834b9f7bb12)
-
+Y las gráficas:
+![imagen](Ex1/graficas/)
